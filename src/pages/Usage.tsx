@@ -69,7 +69,7 @@ export default function Usage() {
                     <div className="flex-1 mx-4">
                       <div className="h-8 bg-muted rounded flex items-center">
                         <div 
-                          className="h-full bg-primary rounded"
+                          className="h-full bg-black rounded"
                           style={{ width: `${(data.fetched / 200) * 100}%` }}
                         />
                       </div>
@@ -93,7 +93,7 @@ export default function Usage() {
                     <div className="flex-1 mx-4">
                       <div className="h-8 bg-muted rounded flex items-center">
                         <div 
-                          className="h-full bg-talent-success rounded"
+                          className="h-full bg-black rounded"
                           style={{ width: `${(data.hiring / 60) * 100}%` }}
                         />
                       </div>
@@ -137,7 +137,7 @@ export default function Usage() {
                   <div key={location.location} className="flex items-center justify-between">
                     <span className="text-sm">{location.location}</span>
                     <div className="flex items-center gap-3">
-                      <Progress value={location.percentage} className="w-20 h-2" />
+                      <Progress value={location.percentage} className="w-20 h-2 " />
                       <span className="text-sm text-muted-foreground w-8">{location.percentage}%</span>
                     </div>
                   </div>
