@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					hover: 'hsl(var(--primary-hover))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -61,7 +62,29 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				talent: {
+					blue: 'hsl(var(--talent-blue))',
+					'blue-hover': 'hsl(var(--talent-blue-hover))',
+					gray: 'hsl(var(--talent-gray))',
+					'light-gray': 'hsl(var(--talent-light-gray))',
+					border: 'hsl(var(--talent-border))',
+					success: 'hsl(var(--talent-success))',
+					warning: 'hsl(var(--talent-warning))',
+					error: 'hsl(var(--talent-error))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-subtle': 'var(--gradient-subtle)'
+			},
+			boxShadow: {
+				'talent-sm': 'var(--shadow-sm)',
+				'talent-md': 'var(--shadow-md)',
+				'talent-lg': 'var(--shadow-lg)'
+			},
+			transitionProperty: {
+				'smooth': 'var(--transition-smooth)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
